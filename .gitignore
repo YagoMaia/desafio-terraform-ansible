@@ -1,0 +1,59 @@
+# Arquivos locais de estado e backups (PODE CONTER SEGREDOS)
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Diretório de plugins e módulos (podem ser baixados com 'terraform init')
+.terraform/
+# Logs e arquivos temporários
+*.log
+*.retry
+
+# inventory.ini
+# inventory.yml
+
+# Roles baixadas via ansible-galaxy (podem ser reinstaladas)
+roles/external/
+roles/galaxy/
+
+# Arquivos de configuração que podem conter caminhos locais
+ansible.cfg
+
+
+# ==========================================
+# SEGURANÇA E GERAL
+# ==========================================
+# Arquivos de variáveis de ambiente
+.env
+.envrc
+
+# Chaves SSH e certificados (Backup de segurança)
+*.pem
+*.key
+*.pub
+*.cert
+
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ / PyCharm
+.idea/
