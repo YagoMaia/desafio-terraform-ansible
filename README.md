@@ -80,7 +80,7 @@ ansible-playbook -i inventory playbook.yml
 Abra o navegador em:
 
 ```
-http://54.94.234.182 
+http://54.94.234.182
 ```
 
 Você deve ver a página web provida pelo playbook.
@@ -94,8 +94,15 @@ Você deve ver a página web provida pelo playbook.
 - Código fonte (Terraform + Ansible) em repositório Git ou ZIP.
 - Captura de tela da página web em funcionamento.
 
-As imagens podem ser consolidadas em um único arquivo Word/PDF.
+### 📸 Capturas incluídas neste repositório
 
----
+A pasta `images/` contém os prints que demonstram a execução dos comandos:
 
-Boa sorte no desafio! 🚀
+- **Terraform init**:
+  ![terraform init](images/terraform_init.png)
+- **Terraform plan**:
+  ![terraform plan](images/terraform_plan.png)
+- **Terraform apply**:
+  ![terraform apply](images/terraform_apply.png)
+- **Ansible playbook**:
+  ![ansible playbook](images/ansible_playbook.png)

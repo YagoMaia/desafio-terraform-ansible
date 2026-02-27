@@ -1,2 +1,2 @@
 [all]
-54.94.234.182 ansible_user=ec2-user ansible_ssh_private_key_file=/home/yagomaia/keys/ec2-instance-key.pem
+54.233.35.191 ansible_user=ec2-user ansible_ssh_private_key_file=/home/yagomaia/keys/ec2-instance-key.pem
